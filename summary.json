@@ -1,0 +1,196 @@
+{
+  "seeds": 10,
+  "horizon": 4,
+  "weeks": 80,
+  "splits": {
+    "train": [
+      24,
+      43
+    ],
+    "cal": [
+      48,
+      51
+    ],
+    "test": [
+      56,
+      75
+    ]
+  },
+  "campaign_week": 64,
+  "alphas": [
+    0.1,
+    0.2,
+    0.3
+  ],
+  "gamma": 0.05,
+  "budgets": [
+    0.05,
+    0.1
+  ],
+  "data_check": {
+    "tkg_quadruples_seed2026.csv": {
+      "generated_sha256": "45aad224ac8cf82c3f0d4f839f257a3f6453b09e4f2d6ffb9c35305bf4e4fe4d"
+    },
+    "asset_windows_seed2026.csv": {
+      "generated_sha256": "0f430081dcfe63b2a0267f218b327455cd736ba4bf9eed63d9ce0136dbd9f43a"
+    }
+  },
+  "protocol_a": {
+    "rf_acc_vs_index": {
+      "mean": 0.5137125,
+      "std": 0.00861262195527263
+    },
+    "rf_wf1_vs_index": {
+      "mean": 0.5101809570617151,
+      "std": 0.010631035245980736
+    },
+    "index_vs_truth_acc": {
+      "mean": 0.5596442307692308,
+      "std": 0.005885064015634243
+    },
+    "index_vs_truth_kappa": {
+      "mean": 0.2493587114793529,
+      "std": 0.010979191315717904
+    },
+    "index_severe_recall": {
+      "mean": 0.3497456219341662,
+      "std": 0.02156789278192341
+    },
+    "rf_index_model_ap_on_truth": {
+      "mean": 0.2949730145162374,
+      "std": 0.03248352251355622
+    }
+  },
+  "dataset": {
+    "n": {
+      "mean": 20800.0,
+      "std": 0.0
+    },
+    "n_train": {
+      "mean": 8000.0,
+      "std": 0.0
+    },
+    "n_cal": {
+      "mean": 1600.0,
+      "std": 0.0
+    },
+    "n_test": {
+      "mean": 8000.0,
+      "std": 0.0
+    },
+    "share_low": {
+      "mean": 0.4855769230769231,
+      "std": 0.008848505122302201
+    },
+    "share_moderate": {
+      "mean": 0.3958798076923077,
+      "std": 0.008907836382760128
+    },
+    "share_high": {
+      "mean": 0.05759134615384616,
+      "std": 0.0025413099549213285
+    },
+    "share_critical": {
+      "mean": 0.06095192307692308,
+      "std": 0.0051003248533272325
+    },
+    "compromised_share": {
+      "mean": 0.039697115384615386,
+      "std": 0.004460028318878026
+    },
+    "neglect_share": {
+      "mean": 0.0651826923076923,
+      "std": 0.006194352863411132
+    },
+    "n_quadruples": {
+      "mean": 121640.2,
+      "std": 732.9580554923393
+    }
+  },
+  "tkg": {
+    "nodes": 17922,
+    "quadruples": 121333,
+    "relations": 19,
+    "mean_update_ms": 8.446832787558378,
+    "max_update_ms": 121.73760600035166
+  },
+  "runtime": {
+    "feature_extraction_ms_per_window": 30.138510899996618,
+    "model_fit_s": 8.887124621000112,
+    "inference_ms_per_asset": 0.04693967362504736
+  },
+  "faithfulness": {
+    "mean_drop_top_group": 0.7752479800425894,
+    "mean_drop_random_group": 0.10304378456814325,
+    "top_group_share": {
+      "configuration": 0.892,
+      "identity": 0.052,
+      "graph context": 0.028,
+      "trust trend": 0.01,
+      "compliance": 0.008,
+      "vulnerability": 0.005,
+      "detection": 0.002,
+      "asset profile": 0.002
+    }
+  },
+  "cm_proposed_seed0": [
+    [
+      2813,
+      1092,
+      35,
+      46
+    ],
+    [
+      1140,
+      1759,
+      144,
+      52
+    ],
+    [
+      44,
+      180,
+      170,
+      58
+    ],
+    [
+      150,
+      120,
+      62,
+      135
+    ]
+  ],
+  "cm_index_vs_truth_seed0": [
+    [
+      7353,
+      2608,
+      191,
+      0
+    ],
+    [
+      3377,
+      3775,
+      975,
+      9
+    ],
+    [
+      190,
+      609,
+      431,
+      7
+    ],
+    [
+      329,
+      505,
+      405,
+      36
+    ]
+  ],
+  "environment": {
+    "python": "3.13.16",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "sklearn": "1.9.1",
+    "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+  },
+  "runtime_s": 911.8
+}

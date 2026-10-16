@@ -1,0 +1,4 @@
+The simulated enterprise audit data in this folder (TKG quadruples and asset-window table) is released under the
+Creative Commons Attribution 4.0 International licence (CC BY 4.0).
+https://creativecommons.org/licenses/by/4.0/
+It is fully synthetic: it contains no personal data and no data from any real organisation.

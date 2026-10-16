@@ -1,0 +1,121 @@
+seed,model,cause,n,recall_top10
+1000,HGB (local+temporal),no compromise (control erosion),706,0.6076487252124646
+1000,HGB (local+temporal),exposure exploit,74,0.13513513513513514
+1000,HGB (local+temporal),credential campaign,19,0.3157894736842105
+1000,HGB (local+temporal),lateral pivot,120,0.1
+1000,TKG-HGB (proposed),no compromise (control erosion),706,0.6118980169971672
+1000,TKG-HGB (proposed),exposure exploit,74,0.10810810810810811
+1000,TKG-HGB (proposed),credential campaign,19,0.3684210526315789
+1000,TKG-HGB (proposed),lateral pivot,120,0.11666666666666667
+1000,TKG-HGB + relational stacking,no compromise (control erosion),706,0.603399433427762
+1000,TKG-HGB + relational stacking,exposure exploit,74,0.14864864864864866
+1000,TKG-HGB + relational stacking,credential campaign,19,0.3684210526315789
+1000,TKG-HGB + relational stacking,lateral pivot,120,0.14166666666666666
+1001,HGB (local+temporal),no compromise (control erosion),659,0.5933232169954477
+1001,HGB (local+temporal),exposure exploit,67,0.23880597014925373
+1001,HGB (local+temporal),credential campaign,9,0.1111111111111111
+1001,HGB (local+temporal),lateral pivot,257,0.08171206225680934
+1001,TKG-HGB (proposed),no compromise (control erosion),659,0.575113808801214
+1001,TKG-HGB (proposed),exposure exploit,67,0.22388059701492538
+1001,TKG-HGB (proposed),credential campaign,9,0.0
+1001,TKG-HGB (proposed),lateral pivot,257,0.06614785992217899
+1001,TKG-HGB + relational stacking,no compromise (control erosion),659,0.5660091047040972
+1001,TKG-HGB + relational stacking,exposure exploit,67,0.19402985074626866
+1001,TKG-HGB + relational stacking,credential campaign,9,0.0
+1001,TKG-HGB + relational stacking,lateral pivot,257,0.08949416342412451
+1002,HGB (local+temporal),no compromise (control erosion),718,0.5306406685236769
+1002,HGB (local+temporal),exposure exploit,65,0.2153846153846154
+1002,HGB (local+temporal),credential campaign,16,0.625
+1002,HGB (local+temporal),lateral pivot,191,0.06806282722513089
+1002,TKG-HGB (proposed),no compromise (control erosion),718,0.5181058495821727
+1002,TKG-HGB (proposed),exposure exploit,65,0.13846153846153847
+1002,TKG-HGB (proposed),credential campaign,16,0.625
+1002,TKG-HGB (proposed),lateral pivot,191,0.06282722513089005
+1002,TKG-HGB + relational stacking,no compromise (control erosion),718,0.5069637883008357
+1002,TKG-HGB + relational stacking,exposure exploit,65,0.15384615384615385
+1002,TKG-HGB + relational stacking,credential campaign,16,0.5
+1002,TKG-HGB + relational stacking,lateral pivot,191,0.06282722513089005
+1003,HGB (local+temporal),no compromise (control erosion),686,0.5568513119533528
+1003,HGB (local+temporal),exposure exploit,59,0.2711864406779661
+1003,HGB (local+temporal),credential campaign,27,0.18518518518518517
+1003,HGB (local+temporal),lateral pivot,258,0.10852713178294573
+1003,TKG-HGB (proposed),no compromise (control erosion),686,0.5393586005830904
+1003,TKG-HGB (proposed),exposure exploit,59,0.3050847457627119
+1003,TKG-HGB (proposed),credential campaign,27,0.18518518518518517
+1003,TKG-HGB (proposed),lateral pivot,258,0.11627906976744186
+1003,TKG-HGB + relational stacking,no compromise (control erosion),686,0.5335276967930029
+1003,TKG-HGB + relational stacking,exposure exploit,59,0.3220338983050847
+1003,TKG-HGB + relational stacking,credential campaign,27,0.18518518518518517
+1003,TKG-HGB + relational stacking,lateral pivot,258,0.12403100775193798
+1004,HGB (local+temporal),no compromise (control erosion),654,0.5978593272171254
+1004,HGB (local+temporal),exposure exploit,70,0.2857142857142857
+1004,HGB (local+temporal),credential campaign,25,0.48
+1004,HGB (local+temporal),lateral pivot,156,0.1282051282051282
+1004,TKG-HGB (proposed),no compromise (control erosion),654,0.6116207951070336
+1004,TKG-HGB (proposed),exposure exploit,70,0.34285714285714286
+1004,TKG-HGB (proposed),credential campaign,25,0.32
+1004,TKG-HGB (proposed),lateral pivot,156,0.11538461538461539
+1004,TKG-HGB + relational stacking,no compromise (control erosion),654,0.6100917431192661
+1004,TKG-HGB + relational stacking,exposure exploit,70,0.35714285714285715
+1004,TKG-HGB + relational stacking,credential campaign,25,0.44
+1004,TKG-HGB + relational stacking,lateral pivot,156,0.16025641025641027
+1005,HGB (local+temporal),no compromise (control erosion),586,0.6040955631399317
+1005,HGB (local+temporal),exposure exploit,64,0.203125
+1005,HGB (local+temporal),credential campaign,14,0.6428571428571429
+1005,HGB (local+temporal),lateral pivot,220,0.12272727272727273
+1005,TKG-HGB (proposed),no compromise (control erosion),586,0.6075085324232082
+1005,TKG-HGB (proposed),exposure exploit,64,0.21875
+1005,TKG-HGB (proposed),credential campaign,14,0.5
+1005,TKG-HGB (proposed),lateral pivot,220,0.17272727272727273
+1005,TKG-HGB + relational stacking,no compromise (control erosion),586,0.6092150170648464
+1005,TKG-HGB + relational stacking,exposure exploit,64,0.21875
+1005,TKG-HGB + relational stacking,credential campaign,14,0.42857142857142855
+1005,TKG-HGB + relational stacking,lateral pivot,220,0.17727272727272728
+1006,HGB (local+temporal),no compromise (control erosion),653,0.6462480857580398
+1006,HGB (local+temporal),exposure exploit,85,0.23529411764705882
+1006,HGB (local+temporal),credential campaign,27,0.2222222222222222
+1006,HGB (local+temporal),lateral pivot,192,0.14583333333333334
+1006,TKG-HGB (proposed),no compromise (control erosion),653,0.6508422664624809
+1006,TKG-HGB (proposed),exposure exploit,85,0.21176470588235294
+1006,TKG-HGB (proposed),credential campaign,27,0.25925925925925924
+1006,TKG-HGB (proposed),lateral pivot,192,0.14583333333333334
+1006,TKG-HGB + relational stacking,no compromise (control erosion),653,0.6493108728943339
+1006,TKG-HGB + relational stacking,exposure exploit,85,0.2
+1006,TKG-HGB + relational stacking,credential campaign,27,0.2222222222222222
+1006,TKG-HGB + relational stacking,lateral pivot,192,0.16145833333333334
+1007,HGB (local+temporal),no compromise (control erosion),606,0.6600660066006601
+1007,HGB (local+temporal),exposure exploit,43,0.2558139534883721
+1007,HGB (local+temporal),credential campaign,12,0.4166666666666667
+1007,HGB (local+temporal),lateral pivot,193,0.08290155440414508
+1007,TKG-HGB (proposed),no compromise (control erosion),606,0.6534653465346535
+1007,TKG-HGB (proposed),exposure exploit,43,0.2558139534883721
+1007,TKG-HGB (proposed),credential campaign,12,0.3333333333333333
+1007,TKG-HGB (proposed),lateral pivot,193,0.08808290155440414
+1007,TKG-HGB + relational stacking,no compromise (control erosion),606,0.6567656765676567
+1007,TKG-HGB + relational stacking,exposure exploit,43,0.2558139534883721
+1007,TKG-HGB + relational stacking,credential campaign,12,0.4166666666666667
+1007,TKG-HGB + relational stacking,lateral pivot,193,0.07253886010362694
+1008,HGB (local+temporal),no compromise (control erosion),781,0.5851472471190781
+1008,HGB (local+temporal),exposure exploit,94,0.1276595744680851
+1008,HGB (local+temporal),credential campaign,23,0.43478260869565216
+1008,HGB (local+temporal),lateral pivot,214,0.09345794392523364
+1008,TKG-HGB (proposed),no compromise (control erosion),781,0.5749039692701664
+1008,TKG-HGB (proposed),exposure exploit,94,0.09574468085106383
+1008,TKG-HGB (proposed),credential campaign,23,0.43478260869565216
+1008,TKG-HGB (proposed),lateral pivot,214,0.10747663551401869
+1008,TKG-HGB + relational stacking,no compromise (control erosion),781,0.5620998719590269
+1008,TKG-HGB + relational stacking,exposure exploit,94,0.13829787234042554
+1008,TKG-HGB + relational stacking,credential campaign,23,0.5217391304347826
+1008,TKG-HGB + relational stacking,lateral pivot,214,0.11214953271028037
+1009,HGB (local+temporal),no compromise (control erosion),609,0.555008210180624
+1009,HGB (local+temporal),exposure exploit,59,0.23728813559322035
+1009,HGB (local+temporal),credential campaign,31,0.12903225806451613
+1009,HGB (local+temporal),lateral pivot,149,0.0738255033557047
+1009,TKG-HGB (proposed),no compromise (control erosion),609,0.5763546798029556
+1009,TKG-HGB (proposed),exposure exploit,59,0.22033898305084745
+1009,TKG-HGB (proposed),credential campaign,31,0.0967741935483871
+1009,TKG-HGB (proposed),lateral pivot,149,0.09395973154362416
+1009,TKG-HGB + relational stacking,no compromise (control erosion),609,0.5779967159277504
+1009,TKG-HGB + relational stacking,exposure exploit,59,0.1864406779661017
+1009,TKG-HGB + relational stacking,credential campaign,31,0.0967741935483871
+1009,TKG-HGB + relational stacking,lateral pivot,149,0.087248322147651

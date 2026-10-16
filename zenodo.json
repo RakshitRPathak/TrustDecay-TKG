@@ -1,0 +1,10 @@
+{
+  "title": "TrustDecay-TKG: code and synthetic temporal-knowledge-graph audit data for information-system trust-decay forecasting",
+  "upload_type": "software",
+  "creators": [{"name": "Pathak, Rakshit Ratan", "affiliation": "Vellore Institute of Technology, Vellore, India"},
+               {"name": "Vibhanshu, Samridhi", "affiliation": "Vellore Institute of Technology, Vellore, India"},
+               {"name": "Haidros Rahima Manzil, Hashida", "affiliation": "Vellore Institute of Technology, Vellore, India"}],
+  "license": "MIT",
+  "keywords": ["information systems audit", "continuous auditing", "temporal knowledge graph", "conformal prediction"],
+  "related_identifiers": [{"identifier": "https://github.com/RakshitRPathak/TrustDecay-TKG", "relation": "isSupplementTo", "scheme": "url"}]
+}

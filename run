@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Code Ocean entry point: reproduces every table and figure into /results.
+set -euo pipefail
+cd "$(dirname "$0")"
+python -u main.py "$@"

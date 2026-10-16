@@ -1,0 +1,21 @@
+digraph TKGACA {
+  graph [rankdir=TB, fontname="Helvetica", nodesep=0.15, ranksep=0.2, splines=spline, pad=0.05, bgcolor="white"];
+  node  [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=9, color="#52514e", fillcolor="#f4f4f2", penwidth=0.8, margin="0.07,0.04", width=1.7];
+  edge  [color="#52514e", arrowsize=0.6, penwidth=0.8];
+  src  [label="Audit & security event stream\nscanner, KEV feed, IAM, CMDB,\nbackup, SIEM, policy, audits"];
+  canon[label="Canonical quadruples\n(s, r, o, t)  +  windowing"];
+  tkg  [label="Temporal knowledge graph\nG_k = G_(k-1) U dV_k U dE_k\n(history preserved)", fillcolor="#e3eefb"];
+  feat [label="Trust features per asset-window\nlocal | temporal (EWMA, decay\nsince assurance) | graph context", fillcolor="#e3eefb"];
+  s1   [label="Stage 1: HGB\nP(decay tier | x)", fillcolor="#e3eefb"];
+  agg  [label="Relational aggregation\nneighbour / shared-user risk", fillcolor="#e3eefb"];
+  s2   [label="Stage 2: HGB (TKG-Stack)\nrisk score s = P(tier >= High)", fillcolor="#e3eefb"];
+  rank [label="Budgeted audit plan\ntop-B assets by score s", fillcolor="#fde3d8"];
+  aci  [label="Delayed-feedback ACI\nflag s >= q_t ; alpha_t update\nlong-run miss rate -> alpha", fillcolor="#fde3d8"];
+  exp  [label="Explanations\nfeature-group occlusion", fillcolor="#fde3d8"];
+  out  [label="Auditor work queue\npriority + reasons"];
+  lab  [label="Audit outcomes (delay H)\n-> recalibration & logging"];
+  src -> canon -> tkg -> feat -> s1 -> agg -> s2;
+  feat -> s2;
+  s2 -> rank -> out; s2 -> aci -> out; s2 -> exp -> out;
+  out -> lab; lab -> aci [style=dashed, constraint=false];
+}

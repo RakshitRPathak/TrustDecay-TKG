@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software or dataset, please cite it as below."
+title: "TrustDecay-TKG: trust-decay forecasting on temporal knowledge graphs with delayed-feedback conformal audit selection"
+version: 1.0.0
+date-released: 2026-10-16
+license: MIT
+repository-code: "https://github.com/RakshitRPathak/TrustDecay-TKG"
+doi: "10.5281/zenodo.XXXXXXX"
+authors:
+  - family-names: Pathak
+    given-names: Rakshit Ratan
+    affiliation: "Vellore Institute of Technology, Vellore, India"
+  - family-names: Vibhanshu
+    given-names: Samridhi
+    affiliation: "Vellore Institute of Technology, Vellore, India"
+  - family-names: Haidros Rahima Manzil
+    given-names: Hashida
+    affiliation: "Vellore Institute of Technology, Vellore, India"
+    email: hashida.haidros@vit.ac.in
+keywords: [information systems audit, continuous auditing, temporal knowledge graph, conformal prediction, cybersecurity risk]
+preferred-citation:
+  type: article
+  title: "Forecasting Information-System Trust Decay on Temporal Knowledge Graphs With Delayed-Feedback Conformal Audit Selection"
+  authors:
+    - family-names: Pathak
+      given-names: Rakshit Ratan
+    - family-names: Vibhanshu
+      given-names: Samridhi
+    - family-names: Haidros Rahima Manzil
+      given-names: Hashida
+  journal: "IEEE Access"
+  year: 2026
+  status: submitted
