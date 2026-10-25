@@ -46,7 +46,7 @@ docs/fig_framework.*              # framework diagram (Graphviz source + render)
 ## Reproduce
 
 ```bash
-pip install -r requirements.txt
+pip install -r environment/requirements.txt
 cd code
 python main.py           # full study: 10 enterprises x 400 assets x 80 weekly windows
 python main.py --quick   # smoke test: 2 enterprises
