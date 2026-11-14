@@ -1,5 +1,7 @@
 # TrustDecay-TKG
 
+[![smoke-test](https://github.com/RakshitRPathak/TrustDecay-TKG/actions/workflows/ci.yml/badge.svg)](https://github.com/RakshitRPathak/TrustDecay-TKG/actions/workflows/ci.yml)
+
 Code and data for the manuscript
 
 > R. R. Pathak, S. Vibhanshu, and H. Haidros Rahima Manzil, "Forecasting Information-System Trust Decay on Temporal Knowledge Graphs With Delayed-Feedback Conformal Audit Selection," submitted to *IEEE Access*, 2026.
